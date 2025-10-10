@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. Richter Sicherheitstechnik</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+<body class="overflow-x-hidden">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+
+    <!-- HERO SLIDER -->
+    <div class="overflow-x-hidden">
+        <div class="swiper mySwiperHome !h-auto">
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <section
+                        class="relative homeBanner1 w-full md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] overflow-hidden">
+                        <!-- dark side overlay for readability -->
+                        <div aria-hidden="true"
+                            class="absolute inset-0 bg-black/80 lg:bg-gradient-to-r lg:from-black lg:via-black/85 lg:to-transparent">
+                        </div>
+
+                        <div
+                            class="relative z-10 max-w-7xl mx-auto px-5 md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] flex items-center">
+                            <div class="text-left space-y-5">
+                                <h2
+                                    class="text-[#ffe44d] font-extrabold uppercase leading-none text-4xl md:text-6xl xl:text-7xl">
+                                    VON WEGEN!</h2>
+
+                                <p class="text-[#ffe44d] uppercase tracking-wide text-xl md:text-3xl">
+                                    ZUGESCHLAGENE TÜR ÖFFNEN KOSTET PAUSCHAL
+                                </p>
+
+                                <p class="text-[#ffe44d] font-extrabold leading-none text-5xl md:text-7xl">99,90 €</p>
+
+                                <p class="text-[#ffe44d] uppercase text-xl md:text-3xl">
+                                    Z.B. IN HÖCHST (IM ODENWALD) – INKL. STEUER UND ANFAHRT
+                                </p>
+
+                                <a href="#preise"
+                                    class="inline-block bg-[#ffe44d] text-black font-semibold px-4 py-2 mt-2">
+                                    Preise für andere Gebiete
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <section
+                        class="relative homeBanner2 w-full md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] overflow-hidden">
+                        <div aria-hidden="true"
+                            class="absolute inset-0 bg-black/60 lg:bg-gradient-to-r lg:from-black lg:via-black/70 lg:to-transparent">
+                        </div>
+
+                        <div
+                            class="relative z-10 max-w-7xl mx-auto px-5 md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] flex items-center">
+                            <div class="text-left space-y-6">
+                                <h2
+                                    class="text-white font-extrabold uppercase leading-tight text-3xl md:text-5xl xl:text-6xl">
+                                    WOHNUNG GEGEN EINBRUCH GESICHERT?
+                                </h2>
+                                <p class="text-white/90 uppercase text-xl md:text-3xl">NEIN, JA, NEIN, NICHT WIRKLICH?
+                                </p>
+                                <h3
+                                    class="text-white font-extrabold uppercase leading-tight text-3xl md:text-5xl xl:text-6xl">
+                                    DANN STEHEN SIE AUF DER LISTE!
+                                </h3>
+                                <a href="#sicherheit"
+                                    class="inline-block bg-[#ffe44d] text-black font-semibold px-4 py-2">
+                                    Klick zu effektiver Sicherheitstechnik
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <section
+                        class="relative homeBanner3 w-full md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] overflow-hidden">
+                        <div aria-hidden="true"
+                            class="absolute inset-0 bg-black/50 lg:bg-gradient-to-r lg:from-black lg:via-black/60 lg:to-transparent">
+                        </div>
+
+                        <div
+                            class="relative z-10 max-w-7xl mx-auto px-5 md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] flex items-center">
+                            <div class="text-left space-y-6">
+                                <h2
+                                    class="text-[#ffe44d] font-extrabold uppercase leading-tight text-3xl md:text-5xl xl:text-6xl">
+                                    ALLES GETAN UM EINBRÜCHE ZU VERHINDERN?
+                                </h2>
+                                <p class="text-[#ffe44d]/90 uppercase text-xl md:text-3xl">NEIN, JA, NEIN, NICHT
+                                    WIRKLICH?</p>
+                                <h3
+                                    class="text-[#ffe44d] font-extrabold uppercase leading-tight text-3xl md:text-5xl xl:text-6xl">
+                                    DANN WERDEN DIEBE NICHT LANGE WARTEN.
+                                </h3>
+                                <a href="#sicherheit"
+                                    class="inline-block bg-[#ffe44d] text-black font-semibold px-4 py-2">
+                                    Klick zu effektiver Sicherheitstechnik
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Slide 4 (Rauchmelder) -->
+                <div class="swiper-slide">
+                    <section
+                        class="relative homeBanner4 w-full md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] overflow-hidden">
+                        <div aria-hidden="true"
+                            class="absolute inset-0 bg-black/55 lg:bg-gradient-to-r lg:from-black lg:via-black/65 lg:to-transparent">
+                        </div>
+
+                        <div
+                            class="relative z-10 max-w-7xl mx-auto px-5 md:min-h-[calc(100vh-9.5rem)] min-h-[68vh] flex items-center">
+                            <div class="text-left space-y-5">
+                                <h2
+                                    class="text-[#ffe44d] font-extrabold uppercase leading-tight text-3xl md:text-5xl xl:text-6xl">
+                                    KOSTET WENIG RETTET VIEL!
+                                </h2>
+                                <p class="text-[#ffe44d]/90 uppercase text-xl md:text-3xl">
+                                    UND SEIT JANUAR 2015 PFLICHT IN HESSEN!
+                                </p>
+                                <h3
+                                    class="text-[#ffe44d] font-extrabold uppercase leading-tight text-3xl md:text-5xl xl:text-6xl">
+                                    RAUCHMELDER
+                                </h3>
+                                <p class="text-[#ffe44d]/90 uppercase text-xl md:text-3xl">
+                                    AUCH MIT INTEGRATION IN SICHERUNGSANLAGEN!
+                                </p>
+                                <a href="#rauchmelder"
+                                    class="inline-block bg-[#ffe44d] text-black font-semibold px-4 py-2">
+                                    Mehr Details zu Rauchmeldern
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Consent / promo single-hero section (centered) -->
+    <section class="relative w-full bg-cover bg-center" style="background-image:url('/images/heli-bg.jpg')">
+        <!-- light wash so black text is readable -->
+        <div class="absolute inset-0 bg-white/60"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+            <!-- center vertically & horizontally -->
+            <div
+                class="min-h-[60vh] md:min-h-[75vh] flex flex-col items-center justify-center py-14 sm:py-16 md:py-24 text-center">
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-extrabold text-black">
+                    YouTube Video blockiert
+                </h2>
+
+                <p class="mt-4 md:mt-6 text-black/90 leading-relaxed md:text-lg max-w-4xl mx-auto">
+                    Entsprechend Ihrer Einwilligungseinstellungen werden Inhalte von „YouTube Video“
+                    derzeit blockiert. Klicken Sie auf „Mehr Infos“, um Details zu dieser Einbindung
+                    einzusehen und anschließend eine informierte Entscheidung treffen zu können.
+                    Klicken Sie auf „Zustimmen“, um die Einbindung zuzulassen und den Inhalt nachzuladen.
+                </p>
+
+                <div class="mt-6 md:mt-8 flex flex-wrap gap-4 justify-center">
+                    <a href="#mehr-infos"
+                        class="inline-flex items-center px-5 py-2.5 md:px-6 md:py-3 bg-[#ffe44d] text-black font-semibold rounded-sm hover:brightness-95 transition">
+                        Mehr Infos
+                    </a>
+                    <button type="button"
+                        class="inline-flex items-center px-5 py-2.5 md:px-6 md:py-3 bg-[#ffe44d] text-black font-semibold rounded-sm hover:brightness-95 transition"
+                        id="consentAcceptBtn">
+                        Zustimmen
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Preis / Notöffnungen Banner -->
+    <section class="bg-[#b3b3b3] py-12 md:py-16">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+
+            <!-- Headline -->
+            <h2 class="text-[#ffe44d] font-extrabold leading-tight text-3xl sm:text-4xl md:text-5xl">
+                Schlüsseldienst und Notöffnungen ab
+                <span class="whitespace-nowrap">99,90 €</span> – wirklich!
+            </h2>
+
+            <!-- Sub lines -->
+            <p class="mt-5 text-zinc-900 text-lg md:text-xl">
+                Inklusive MwSt. und PKW-Kosten.
+            </p>
+
+            <p class="mt-2 text-zinc-800 text-lg md:text-xl">
+                Keine Panik, alles was zugeht, geht auch wieder auf. Wir machen das!
+            </p>
+
+            <p class="mt-3 text-zinc-900 font-semibold text-lg md:text-xl">
+                Schlüssel-Not-Dienst • Fahrzeugöffnungen (alle Marken)
+            </p>
+
+            <!-- Phone -->
+            <p class="mt-6 text-lg md:text-xl">
+                <span class="text-[#ffe44d] font-semibold">Rufen Sie uns an:</span>
+                <a href="tel:+491636513886" class="text-white font-semibold hover:underline">
+                    0163 - 65 13 886
+                </a>
+            </p>
+
+            <!-- CTA -->
+            <a href="#standorte"
+                class="inline-block mt-8 bg-[#ffe44d] text-black font-semibold px-6 py-3 hover:brightness-95 transition">
+                unsere Standorte
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Schlüssel­dienst Suche -->
+    <section class="bg-[#b3b3b3] py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <!-- Title + top rule -->
+            <div class="pb-6">
+                <h2 class="text-[#ffe44d] font-extrabold text-3xl md:text-5xl leading-tight">
+                    Schlüsseldienst Suche
+                </h2>
+                <div class="h-px bg-white/60 mt-3"></div>
+            </div>
+
+            <!-- Subtext -->
+            <p class="text-zinc-900/90 text-lg md:text-xl max-w-5xl">
+                Geben Sie einfach Ihren <span class="text-[#ffe44d] font-semibold">Ortsnamen</span> ein –
+                Sehen Sie sich den <span class="text-[#ffe44d] font-semibold">Öffnungs-Preis</span> an
+                und <span class="text-[#ffe44d] font-semibold">rufen Sie</span> uns an, dann klären wir alle Details
+                und Ihr Problem wird umgehend gelöst.
+            </p>
+
+            <!-- Search -->
+            <form class="mt-4 flex items-stretch max-w-3xl">
+                <input type="text" placeholder="Ort eingeben …"
+                    class="flex-1 bg-white h-11 px-3 border border-black/20 outline-none" />
+                <button type="submit" class="h-11 px-3 bg-[#ffe44d] border border-black/20 -ml-px" aria-label="Suche">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <div class="h-px bg-white/60 mt-6 mb-10"></div>
+
+            <!-- Cards -->
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Reusable card pattern: base = light, hover = yellow/red -->
+                <!-- Card 1 -->
+                <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+           transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+           p-7 md:p-8 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                group-hover:bg-white/70">
+                        <i class="fa-solid fa-key text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                        Schlüsseldienst<br>Standorte
+                    </h3>
+                    <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                        Keine Panik, alles was zugeht, geht auch wieder auf …
+                    </p>
+                    <a href="#standorte" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+              transition group-hover:bg-white group-hover:text-red-700">
+                        Unsere Standorte
+                    </a>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+           transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+           p-7 md:p-8 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                group-hover:bg-white/70">
+                        <i class="fa-solid fa-house text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                        Alarmanlagen<br>Sicherungstechnik
+                    </h3>
+                    <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                        Der finanzielle Schaden und die damit verbundene Verletzung Ihrer …
+                    </p>
+                    <a href="#alarmanlagen" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+              transition group-hover:bg-white group-hover:text-red-700">
+                        Weiterlesen
+                    </a>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+           transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+           p-7 md:p-8 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                group-hover:bg-white/70">
+                        <i
+                            class="fa-solid fa-fire-flame-simple text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                        Feuerschutz<br>Rauchmelder
+                    </h3>
+                    <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                        Wie in Hessen ab Januar 2015 ist ein Rauchmelder mittlerweile in vielen …
+                    </p>
+                    <a href="#rauchmelder" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+              transition group-hover:bg-white group-hover:text-red-700">
+                        Weiterlesen
+                    </a>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+           transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+           p-7 md:p-8 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                group-hover:bg-white/70">
+                        <i class="fa-solid fa-lock text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+                    </div>
+                    <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                        Notöffnungen<br>aller Art
+                    </h3>
+                    <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                        Tresor zu, Schlüssel weg oder Code vergessen? Wir helfen schnell.
+                    </p>
+                    <a href="#notoeffnungen" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+              transition group-hover:bg-white group-hover:text-red-700">
+                        weitere Details
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#b3b3b3] py-10">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <!-- Header -->
+            <div class="flex items-center justify-between gap-4">
+                <h2 class="text-[#ffe44d] font-extrabold text-2xl md:text-3xl">
+                    Unsere Produktpalette
+                </h2>
+                <div class="flex items-center gap-2">
+                    <button
+                        class="prod-prev w-8 h-8 rounded-full bg-black/25 text-white grid place-items-center hover:bg-black/40"
+                        aria-label="Zurück">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button
+                        class="prod-next w-8 h-8 rounded-full bg-black/25 text-white grid place-items-center hover:bg-black/40"
+                        aria-label="Weiter">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="h-px bg-white/60 mt-2 mb-6"></div>
+
+            <!-- Slider -->
+            <div class="swiper prod-swiper" style="--swiper-theme-color:#ffe44d;">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide (card) -->
+                    <div class="swiper-slide">
+                        <article
+                            class="prod-card overflow-hidden rounded-md border border-zinc-300 bg-white shadow-sm hover:shadow-md transition flex flex-col h-full">
+                            <!-- image + hover overlay -->
+                            <div class="relative bg-white aspect-[4/3] grid place-items-center">
+                                <img src="/images/products/gsm-kamera.jpg"
+                                    data-hover="/images/products/gsm-kamera-2.jpg" alt="GSM Kamera"
+                                    class="max-h-full max-w-full object-contain" />
+                                <!-- hover wash + plus -->
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
+                                    <div class="absolute inset-0 bg-[#ffe44d]/85"></div>
+                                    <div class="absolute inset-0 grid place-items-center">
+                                        <span
+                                            class="w-16 h-16 rounded-full bg-black/35 grid place-items-center text-white text-3xl">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- caption -->
+                            <div
+                                class="bg-[#e9e9e9] p-6 text-center transition-colors group-hover:bg-[#ffe44d] rounded-b-md">
+                                <h3 class="text-zinc-800 font-semibold text-xl group-hover:text-black">GSM Kamera</h3>
+                                <p class="text-zinc-600 mt-1 group-hover:text-black/80">Sicherungstechnik</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Copy this block and change content/paths (add 5+ slides so autoplay loops nicely) -->
+                    <div class="swiper-slide">
+                        <article
+                            class="prod-card overflow-hidden rounded-md border border-zinc-300 bg-white shadow-sm hover:shadow-md transition flex flex-col h-full">
+                            <div class="relative bg-white aspect-[4/3] grid place-items-center">
+                                <img src="/images/products/nebelsystem.jpg"
+                                    data-hover="/images/products/nebelsystem-2.jpg" alt="UR FOG Nebelsysteme"
+                                    class="max-h-full max-w-full object-contain" />
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
+                                    <div class="absolute inset-0 bg-[#ffe44d]/85"></div>
+                                    <div class="absolute inset-0 grid place-items-center">
+                                        <span
+                                            class="w-16 h-16 rounded-full bg-black/35 grid place-items-center text-white text-3xl">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-[#e9e9e9] p-6 text-center transition-colors group-hover:bg-[#ffe44d] rounded-b-md">
+                                <h3 class="text-zinc-800 font-semibold text-xl group-hover:text-black">UR FOG
+                                    Nebelsysteme</h3>
+                                <p class="text-zinc-600 mt-1 group-hover:text-black/80">Alarmanlagen</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article
+                            class="prod-card overflow-hidden rounded-md border border-zinc-300 bg-white shadow-sm hover:shadow-md transition flex flex-col h-full">
+                            <div class="relative bg-white aspect-[4/3] grid place-items-center">
+                                <img src="/images/products/ja-100.jpg" data-hover="/images/products/ja-100-2.jpg"
+                                    alt="Alarmanlage JA-100" class="max-h-full max-w-full object-contain" />
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
+                                    <div class="absolute inset-0 bg-[#ffe44d]/85"></div>
+                                    <div class="absolute inset-0 grid place-items-center">
+                                        <span
+                                            class="w-16 h-16 rounded-full bg-black/35 grid place-items-center text-white text-3xl">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-[#e9e9e9] p-6 text-center transition-colors group-hover:bg-[#ffe44d] rounded-b-md">
+                                <h3 class="text-zinc-800 font-semibold text-xl group-hover:text-black">Alarmanlage
+                                    JA-100</h3>
+                                <p class="text-zinc-600 mt-1 group-hover:text-black/80">Alarmanlagen</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article
+                            class="prod-card overflow-hidden rounded-md border border-zinc-300 bg-white shadow-sm hover:shadow-md transition flex flex-col h-full">
+                            <div class="relative bg-white aspect-[4/3] grid place-items-center">
+                                <img src="/images/products/tresor.jpg" data-hover="/images/products/tresor-2.jpg"
+                                    alt="Datensicherungsschränke" class="max-h-full max-w-full object-contain" />
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
+                                    <div class="absolute inset-0 bg-[#ffe44d]/85"></div>
+                                    <div class="absolute inset-0 grid place-items-center">
+                                        <span
+                                            class="w-16 h-16 rounded-full bg-black/35 grid place-items-center text-white text-3xl">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-[#e9e9e9] p-6 text-center transition-colors group-hover:bg-[#ffe44d] rounded-b-md">
+                                <h3 class="text-zinc-800 font-semibold text-xl group-hover:text-black">
+                                    Datensicherungsschränke</h3>
+                                <p class="text-zinc-600 mt-1 group-hover:text-black/80">Tresore</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article
+                            class="prod-card overflow-hidden rounded-md border border-zinc-300 bg-white shadow-sm hover:shadow-md transition flex flex-col h-full">
+                            <div class="relative bg-white aspect-[4/3] grid place-items-center">
+                                <img src="/images/products/klingel.jpg" data-hover="/images/products/klingel-2.jpg"
+                                    alt="Türsprechanlagen" class="max-h-full max-w-full object-contain" />
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
+                                    <div class="absolute inset-0 bg-[#ffe44d]/85"></div>
+                                    <div class="absolute inset-0 grid place-items-center">
+                                        <span
+                                            class="w-16 h-16 rounded-full bg-black/35 grid place-items-center text-white text-3xl">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-[#e9e9e9] p-6 text-center transition-colors group-hover:bg-[#ffe44d] rounded-b-md">
+                                <h3 class="text-zinc-800 font-semibold text-xl group-hover:text-black">Türsprechanlagen
+                                </h3>
+                                <p class="text-zinc-600 mt-1 group-hover:text-black/80">Sprechanlagen</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article
+                            class="prod-card overflow-hidden rounded-md border border-zinc-300 bg-white shadow-sm hover:shadow-md transition flex flex-col h-full">
+                            <div class="relative bg-white aspect-[4/3] grid place-items-center">
+                                <img src="/images/products/door-closer.jpg"
+                                    data-hover="/images/products/door-closer-2.jpg" alt="Türschließer"
+                                    class="max-h-full max-w-full object-contain" />
+                                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition">
+                                    <div class="absolute inset-0 bg-[#ffe44d]/85"></div>
+                                    <div class="absolute inset-0 grid place-items-center">
+                                        <span
+                                            class="w-16 h-16 rounded-full bg-black/35 grid place-items-center text-white text-3xl">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-[#e9e9e9] p-6 text-center transition-colors group-hover:bg-[#ffe44d] rounded-b-md">
+                                <h3 class="text-zinc-800 font-semibold text-xl group-hover:text-black">Türschließer</h3>
+                                <p class="text-zinc-600 mt-1 group-hover:text-black/80">Türschließer</p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="md:pt-24 bg-zinc-900 pt-10" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script>
+
+        // banner
+
+        var swiperHome = new Swiper(".mySwiperHome", {
+            slidesPerView: 1,
+            loop: true,
+            autoplay: { delay: 5000 },
+            effect: 'fade',
+            fadeEffect: { crossFade: true },
+            speed: 700,
+            navigation: {
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            loop: true,
+        });
+
+
+    </script>
+    <script>
+        // Swiper init
+        const prodSwiper = new Swiper(".prod-swiper", {
+            loop: true,
+            speed: 550,
+            spaceBetween: 24,
+            slidesPerView: 1,           // mobile
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+            },
+            navigation: {
+                nextEl: ".prod-next",
+                prevEl: ".prod-prev",
+            },
+            pagination: {
+                el: ".prod-pagination",
+                type: "progressbar",
+            },
+            breakpoints: {
+                768: { slidesPerView: 2 }, // tablet
+                1024: { slidesPerView: 4 }, // desktop
+            },
+        });
+
+        // Optional: swap to a hover image if data-hover is provided
+        document.querySelectorAll('.prod-card').forEach(card => {
+            const img = card.querySelector('img[data-hover]');
+            if (!img) return;
+
+            const original = img.getAttribute('src');
+            const hoverSrc = img.dataset.hover;
+
+            card.addEventListener('mouseenter', () => { if (hoverSrc) img.src = hoverSrc; });
+            card.addEventListener('mouseleave', () => { img.src = original; });
+        });
+    </script>
+
+</body>
+
+</html>
