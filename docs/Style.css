@@ -37,11 +37,19 @@ input:user-invalid {
 }
 
 .homeBanner1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/car\ \(1\).jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider1.jpg) center/cover no-repeat;
 }
 
 .homeBanner2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/car\ \(2\).jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider2.jpg) center/cover no-repeat;
+}
+
+.homeBanner3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider3.jpg) center/cover no-repeat;
+}
+
+.homeBanner4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider4.jpg) center/cover no-repeat;
 }
 
 .swiper {
@@ -81,4 +89,15 @@ input:user-invalid {
 
 .prod-card:hover .group-hover\:text-black\/80 {
   color: rgba(0, 0, 0, .8) !important;
+}
+
+.filter-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
 }

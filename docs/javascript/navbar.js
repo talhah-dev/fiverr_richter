@@ -31,7 +31,7 @@ navbar.innerHTML = `
     </div>
 
     <!-- MAIN (GREY) -->
-    <div class="bg-[#b3b3b3]">
+    <div class="bg-[#a4a4a4]">
       <div class="max-w-7xl mx-auto w-full flex items-center justify-between px-3 lg:px-4">
         <!-- Logo/Title -->
         <a href="/index.html" class="py-5">
@@ -43,16 +43,16 @@ navbar.innerHTML = `
 
         <!-- Desktop menu -->
         <ul class="hidden lg:flex items-stretch text-[#ffe44d] font-semibold tracking-wide uppercase">
-          <li class="relative"><a href="/index.html" class="px-6 flex items-center bg-black">Home</a></li>
+          <li class="relative"><a href="/index.html" class="px-6 hover:bg-[#ffea00] hover:text-black transition-colors flex items-center">Home</a></li>
 
           <li class="relative group z-40">
             <button class="px-6 h-full flex items-center hover:bg-[#ffea00] hover:text-black transition-colors">Leistungen</button>
             <div class="absolute left-0 top-full hidden group-hover:flex flex-col w-72 bg-black text-white">
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Sicherungstechnik</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Alarmanlage</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Videoüberwachung</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Notöffnungen</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Einbruchschaden-Beseitigung</a>
+              <a href="/sicherungstechnik.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Sicherungstechnik</a>
+              <a href="/alarmanlagen-einfamilienhaus.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Alarmanlage</a>
+              <a href="/videoueberwachung.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Videoüberwachung</a>
+              <a href="/notoeffnungen.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Notöffnungen</a>
+              <a href="/einbruchschaden-beseitigung.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Einbruchschaden-Beseitigung</a>
             </div>
           </li>
 
@@ -108,11 +108,11 @@ navbar.innerHTML = `
           </button>
           <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <ul class="bg-[#2c2c2c]">
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Sicherungstechnik</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Alarmanlage</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Videoüberwachung</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Notöffnungen</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Einbruchschaden-Beseitigung</a></li>
+              <li><a href="/sicherungstechnik.html" class="block px-6 py-3 border-t border-black/30">Sicherungstechnik</a></li>
+              <li><a href="/alarmanlagen-einfamilienhaus.html" class="block px-6 py-3 border-t border-black/30">Alarmanlage</a></li>
+              <li><a href="/videoueberwachung.html" class="block px-6 py-3 border-t border-black/30">Videoüberwachung</a></li>
+              <li><a href="/notoeffnungen.html" class="block px-6 py-3 border-t border-black/30">Notöffnungen</a></li>
+              <li><a href="/einbruchschaden-beseitigung.html" class="block px-6 py-3 border-t border-black/30">Einbruchschaden-Beseitigung</a></li>
             </ul>
           </div>
         </li>
