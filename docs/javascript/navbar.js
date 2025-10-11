@@ -70,7 +70,7 @@ navbar.innerHTML = `
               <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Galerie - Kurioses</a>
               <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Stellenangebote</a>
               <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Aktuelle News</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Impressum</a>
+              <a href="/impressum.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Impressum</a>
               <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Datenschutzerklärung</a>
             </div>
           </li>
@@ -141,7 +141,7 @@ navbar.innerHTML = `
               <li><a href="#" class="block px-6 py-3 border-t border-black/30">Galerie - Kurioses</a></li>
               <li><a href="#" class="block px-6 py-3 border-t border-black/30">Stellenangebote</a></li>
               <li><a href="#" class="block px-6 py-3 border-t border-black/30">Aktuelle News</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Impressum</a></li>
+              <li><a href="/impressum.html" class="block px-6 py-3 border-t border-black/30">Impressum</a></li>
               <li><a href="#" class="block px-6 py-3 border-t border-black/30">Datenschutzerklärung</a></li>
             </ul>
           </div>

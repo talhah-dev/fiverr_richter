@@ -186,7 +186,7 @@ footer.innerHTML = `
       <nav class="text-sm md:text-base flex items-center flex-wrap">
         <a href="#kontakt" class="hover:underline">Kontakt</a>
         <span class="px-2">|</span>
-        <a href="#impressum" class="hover:underline">Impressum</a>
+        <a href="/impressum.html" class="hover:underline">Impressum</a>
         <span class="px-2">|</span>
         <a href="#datenschutz" class="hover:underline">Datenschutzerklärung</a>
       </nav>
