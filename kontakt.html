@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. Richter Sicherheitstechnik</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+<body class="overflow-x-hidden">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+    <section id="kontakt-form-page" class="py-12 bg-zinc-100">
+        <div class="max-w-5xl mx-auto px-5 md:px-8">
+            <div class="rounded-2xl bg-white p-6 md:p-8 shadow-sm border border-zinc-200">
+                <h1 class="text-3xl md:text-4xl font-semibold text-yellow-300">Kontaktformular</h1>
+                <p class="mt-2 text-sm text-zinc-600">Mit <span class="font-medium">*</span> gekennzeichnete Felder sind
+                    Pflichtfelder.</p>
+                <div class="mt-4 h-[3px] bg-neutral-500/70"></div>
+
+                <form action="/api/contact" method="post" class="mt-6 grid gap-6" autocomplete="on">
+                    <!-- Honeypot gegen Spam -->
+                    <input type="text" name="webseite" tabindex="-1" autocomplete="off" class="hidden"
+                        aria-hidden="true">
+
+                    <!-- Row: Name / Telefon / Email -->
+                    <div class="grid gap-4 md:grid-cols-3">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-zinc-800"><i
+                                    class="fa-regular fa-user mr-2"></i>Vorname/Name<span
+                                    class="text-zinc-500">*</span></label>
+                            <input id="name" name="name" type="text" required placeholder="Max Mustermann"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white/90 p-3 shadow-sm focus:border-yellow-300 focus:ring-2 focus:ring-yellow-300/70">
+                        </div>
+                        <div>
+                            <label for="telefon" class="block text-sm font-medium text-zinc-800"><i
+                                    class="fa-solid fa-phone mr-2"></i>Telefon</label>
+                            <input id="telefon" name="telefon" type="tel" inputmode="tel"
+                                placeholder="z. B. 0151 1234567"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white/90 p-3 shadow-sm focus:border-yellow-300 focus:ring-2 focus:ring-yellow-300/70">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-zinc-800"><i
+                                    class="fa-regular fa-envelope mr-2"></i>E‑Mail<span
+                                    class="text-zinc-500">*</span></label>
+                            <input id="email" name="email" type="email" required placeholder="name@beispiel.de"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white/90 p-3 shadow-sm focus:border-yellow-300 focus:ring-2 focus:ring-yellow-300/70">
+                        </div>
+                    </div>
+
+                    <!-- Interessen -->
+                    <fieldset class="rounded-2xl border border-zinc-200 p-4">
+                        <legend class="px-2 text-sm font-semibold text-zinc-800">Ich interessiere mich für</legend>
+                        <div class="mt-3 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="schluesselnotdienst"
+                                    class="size-4 accent-yellow-300"><span>Schlüsseldienst</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="notoeffnung" class="size-4 accent-yellow-300"><span>Notöffnung</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="fahrzeugoeffnung"
+                                    class="size-4 accent-yellow-300"><span>Fahrzeugöffnung</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="alarmanlage"
+                                    class="size-4 accent-yellow-300"><span>Alarmanlage</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="tresore" class="size-4 accent-yellow-300"><span>Tresore</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="rauchmelder"
+                                    class="size-4 accent-yellow-300"><span>Rauchmelder</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="sicherungstechnik"
+                                    class="size-4 accent-yellow-300"><span>Sicherungstechnik</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="tuerschliesser"
+                                    class="size-4 accent-yellow-300"><span>Türschließer</span></label>
+                            <label class="inline-flex items-center gap-2"><input type="checkbox" name="interessen[]"
+                                    value="sonstiges" class="size-4 accent-yellow-300"><span>sonstiges</span></label>
+                        </div>
+                    </fieldset>
+
+                    <!-- Selects -->
+                    <div class="grid gap-4 md:grid-cols-2">
+                        <div>
+                            <label for="bitte" class="block text-sm font-medium text-zinc-800">Bitte …</label>
+                            <select id="bitte" name="bitte"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white/90 p-3 shadow-sm focus:border-yellow-300 focus:ring-2 focus:ring-yellow-300/70">
+                                <option value="unterlagen">senden Sie mir Unterlagen</option>
+                                <option value="rueckruf">rufen Sie mich zurück</option>
+                                <option value="angebot">erstellen Sie mir ein Angebot</option>
+                                <option value="termin">vereinbaren Sie einen Termin</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="quelle" class="block text-sm font-medium text-zinc-800">Wie haben Sie uns
+                                gefunden</label>
+                            <select id="quelle" name="quelle"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white/90 p-3 shadow-sm focus:border-yellow-300 focus:ring-2 focus:ring-yellow-300/70">
+                                <option>Google</option>
+                                <option>Empfehlung</option>
+                                <option>Social Media</option>
+                                <option>Stammkunde</option>
+                                <option>Sonstiges</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Nachricht -->
+                    <div>
+                        <label for="nachricht" class="block text-sm font-medium text-zinc-800">Platz für Ihre
+                            Nachricht</label>
+                        <textarea id="nachricht" name="nachricht" rows="7"
+                            placeholder="Ihr Anliegen in wenigen Sätzen …"
+                            class="mt-2 w-full rounded-xl border border-zinc-300 bg-white/90 p-3 shadow-sm focus:border-yellow-300 focus:ring-2 focus:ring-yellow-300/70"></textarea>
+                    </div>
+
+                    <!-- Optionen -->
+                    <div class="space-y-3">
+                        <label class="flex items-start gap-3"><input type="checkbox" name="kopie" value="1"
+                                class="mt-1 size-4 accent-yellow-300"><span>Ich möchte eine Kopie dieser Mail
+                                erhalten</span></label>
+                        <p class="text-sm text-zinc-600">Bitte beachten Sie unsere <a href="#privacy"
+                                class="underline">Datenschutzerklärung</a></p>
+                        <p class="text-sm text-zinc-600">* Pflichtfelder</p>
+                    </div>
+
+                    <!-- Submit -->
+                    <div>
+                        <button type="submit"
+                            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-yellow-300 text-zinc-900 font-medium shadow hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-300/70">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Anfrage senden
+                        </button>
+                    </div>
+
+                    <!-- Status Placeholder -->
+                    <div aria-live="polite" class="hidden rounded-xl border p-4 text-sm" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. Richter Sicherheitstechnik</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+<body class="overflow-x-hidden">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+    <!-- TEAM PAGE -->
+    <!-- Top Banner (full width). Replace the image URL with your own -->
+    <section id="team-hero" class="relative w-full h-[42vh] md:h-[56vh] bg-zinc-900">
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image:url('https://images.unsplash.com/photo-1705264895993-c544cf74a0c7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170');"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/35 to-black/55"></div>
+        <div class="relative z-10 h-full max-w-6xl mx-auto px-5 md:px-8 flex flex-col items-start justify-end pb-8">
+            <h1 class="text-4xl md:text-5xl font-semibold text-yellow-300">Unser Team</h1>
+            <p class="mt-3 max-w-2xl text-zinc-100/90 text-base md:text-lg">Wir sind ein starkes Team – qualifiziert,
+                zuverlässig und schnell vor Ort. Für jede Aufgabe haben wir den passenden Spezialisten.</p>
+        </div>
+    </section>
+
+    <!-- Intro / Benefits (unique copy) -->
+    <section id="team-intro" class="py-8 bg-zinc-100">
+        <div class="max-w-6xl mx-auto px-5 md:px-8">
+            <div class="grid gap-4 sm:grid-cols-3">
+                <div class="rounded-2xl bg-white border border-zinc-200 p-4 shadow-sm flex items-start gap-3">
+                    <i class="fa-solid fa-user-check mt-0.5"></i>
+                    <div>
+                        <p class="font-semibold">Ein Ansprechpartner</p>
+                        <p class="text-sm text-zinc-600">Persönliche Betreuung – von der Anfrage bis zur Abrechnung.</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-white border border-zinc-200 p-4 shadow-sm flex items-start gap-3">
+                    <i class="fa-solid fa-scale-balanced mt-0.5"></i>
+                    <div>
+                        <p class="font-semibold">Faire Konditionen</p>
+                        <p class="text-sm text-zinc-600">Transparente Preise statt Überraschungen.</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-white border border-zinc-200 p-4 shadow-sm flex items-start gap-3">
+                    <i class="fa-solid fa-file-invoice mt-0.5"></i>
+                    <div>
+                        <p class="font-semibold">Ordentliche Rechnung</p>
+                        <p class="text-sm text-zinc-600">Saubere Dokumentation für Versicherung &amp; Buchhaltung.</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="mt-6 flex flex-wrap gap-2 text-sm">
+                <li class="inline-flex items-center gap-2 rounded-full bg-white border border-zinc-200 px-3 py-1.5"><i
+                        class="fa-solid fa-key"></i> Schlüsseldienst</li>
+                <li class="inline-flex items-center gap-2 rounded-full bg-white border border-zinc-200 px-3 py-1.5"><i
+                        class="fa-solid fa-door-open"></i> Notöffnungen</li>
+                <li class="inline-flex items-center gap-2 rounded-full bg-white border border-zinc-200 px-3 py-1.5"><i
+                        class="fa-solid fa-shield-halved"></i> Sicherungstechnik</li>
+                <li class="inline-flex items-center gap-2 rounded-full bg-white border border-zinc-200 px-3 py-1.5"><i
+                        class="fa-solid fa-bell"></i> Elektronische Alarmanlagen</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Team Grid -->
+    <section id="team-grid" class="py-10 text-zinc-700">
+        <div class="max-w-6xl mx-auto px-5 md:px-8">
+            <h2 class="text-3xl font-semibold text-yellow-300">Menschen hinter dem Service</h2>
+            <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+                <!-- CARD TEMPLATE (copy for each person) -->
+                <!-- Default image path: /docs/assets/images/user.webp -->
+
+                <!-- E. Richter (Inhaber) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="E. Richter"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">E. Richter</h3>
+                            <p class="text-sm text-zinc-600">Inhaber</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:e.richter@richter-sicherheitstechnik.de"
+                                        class="underline">e.richter@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- T. Richter (Buchhaltung) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="T. Richter"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">T. Richter</h3>
+                            <p class="text-sm text-zinc-600">Buchhaltung</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:06163937863" class="underline">06163 93 78 63</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- S. Ungefroren (Koordination) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="S. Ungefroren"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">S. Ungefroren</h3>
+                            <p class="text-sm text-zinc-600">Koordination</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:061639397743" class="underline">06163 9 39 77 43</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:s.ungefroren@richter-sicherheitstechnik.de"
+                                        class="underline">s.ungefroren@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Monteur Mühlheim -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Mühlheim"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Mühlheim</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Mühlheim</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Monteur Büttelborn -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Büttelborn"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Büttelborn</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Büttelborn</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- L. Kodoll (Berlin) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="L. Kodoll"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">L. Kodoll</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Berlin</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- E. Richter (Templin) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="E. Richter"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">E. Richter</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Templin</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Monteur Bad König -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Bad König"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Bad König</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Bad König</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Monteur Bremen -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Bremen"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Bremen</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Bremen</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- G. Eisert (Düsseldorf) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="G. Eisert"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">G. Eisert</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Düsseldorf</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Neuss / Waltrop / Thedinghausen / Essen / Michelstadt / Delmenhorst / Neu‑Isenburg / Duisburg -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Neuss"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Neuss</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Neuss</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Waltrop"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Waltrop</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Waltrop</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Thedinghausen"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Thedinghausen</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Thedinghausen</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Essen"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Essen</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Essen</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Michelstadt"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Michelstadt</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Michelstadt</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Delmenhorst"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Delmenhorst</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Delmenhorst</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Neu‑Isenburg"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Neu‑Isenburg</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Neu‑Isenburg</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Monteur Duisburg"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Monteur Duisburg</h3>
+                            <p class="text-sm text-zinc-600 flex items-center gap-2 justify-center"><i
+                                    class="fa-solid fa-location-dot"></i>Standort Duisburg</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:info@richter-sicherheitstechnik.de"
+                                        class="underline">info@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Cooper (Diensthund Detektiv) -->
+                <article class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                    <div class="flex items-center justify-center gap-4 flex-col">
+                        <img src="/docs/assets/images/user.webp" alt="Cooper – Diensthund Detektiv"
+                            class="size-20 md:size-24 rounded-xl object-cover mx-auto" />
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold text-zinc-900">Cooper</h3>
+                            <p class="text-sm text-zinc-600">Diensthund · Detektiv</p>
+                            <ul class="mt-3 space-y-1 text-sm">
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-solid fa-phone"></i><a
+                                        href="tel:01636513886" class="underline">Notruf 0163 65 13 886</a></li>
+                                <li class="flex items-center gap-2 justify-center"><i class="fa-regular fa-envelope"></i><a
+                                        href="mailto:cooper@richter-sicherheitstechnik.de"
+                                        class="underline">cooper@richter-sicherheitstechnik.de</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>
