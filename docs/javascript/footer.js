@@ -81,37 +81,37 @@ footer.innerHTML = `
           <ul class="mt-5 divide-y divide-neutral-500/60 border-y border-neutral-500/60">
             <!-- item -->
             <li>
-              <a href="#" class="flex items-center gap-3 py-3 group">
+              <a href="/standorte.html" class="flex items-center gap-3 py-3 group">
                 <span class="text-yellow-300 text-xl leading-none">+</span>
                 <span class="group-hover:text-yellow-300">Schlüsseldienst Standorte</span>
               </a>
             </li>
             <li>
-              <a href="#" class="flex items-center gap-3 py-3 group">
+              <a href="/notoeffnungen.html" class="flex items-center gap-3 py-3 group">
                 <span class="text-yellow-300 text-xl leading-none">+</span>
                 <span class="group-hover:text-yellow-300">Notöffnungen &amp; Schlüsseldienst</span>
               </a>
             </li>
             <li>
-              <a href="#" class="flex items-center gap-3 py-3 group">
+              <a href="/achtung-abzocker.html" class="flex items-center gap-3 py-3 group">
                 <span class="text-yellow-300 text-xl leading-none">+</span>
                 <span class="group-hover:text-yellow-300">Achtung Abzocker</span>
               </a>
             </li>
             <li>
-              <a href="#" class="flex items-center gap-3 py-3 group">
+              <a href="/team.html" class="flex items-center gap-3 py-3 group">
                 <span class="text-yellow-300 text-xl leading-none">+</span>
                 <span class="group-hover:text-yellow-300">Unser Team</span>
               </a>
             </li>
             <li>
-              <a href="#" class="flex items-center gap-3 py-3 group">
+              <a href="/aktuelle-news.html" class="flex items-center gap-3 py-3 group">
                 <span class="text-yellow-300 text-xl leading-none">+</span>
                 <span class="group-hover:text-yellow-300">Aktuelle News</span>
               </a>
             </li>
             <li>
-              <a href="#" class="flex items-center gap-3 py-3 group">
+              <a href="/suche.html" class="flex items-center gap-3 py-3 group">
                 <span class="text-yellow-300 text-xl leading-none">+</span>
                 <span class="group-hover:text-yellow-300">Suche auf unserer Seite</span>
               </a>
@@ -184,11 +184,11 @@ footer.innerHTML = `
       </p>
 
       <nav class="text-sm md:text-base flex items-center flex-wrap">
-        <a href="#kontakt" class="hover:underline">Kontakt</a>
+        <a href="/kontakt.html" class="hover:underline">Kontakt</a>
         <span class="px-2">|</span>
         <a href="/impressum.html" class="hover:underline">Impressum</a>
         <span class="px-2">|</span>
-        <a href="#datenschutz" class="hover:underline">Datenschutzerklärung</a>
+        <a href="/datenschutzerklaerung.html" class="hover:underline">Datenschutzerklärung</a>
       </nav>
     </div>
   </div>

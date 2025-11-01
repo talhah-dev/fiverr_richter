@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. Richter Sicherheitstechnik</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+<body class="overflow-x-hidden">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+
+    <!-- SCHLÜSSELDIENST AARB3RGEN — LANDING PAGE -->
+    <!-- Section 1: Hero/Intro -->
+    <section id="aarbergen-hero" class="relative bg-zinc-100 text-zinc-700">
+        <div class="max-w-6xl mx-auto px-5 md:px-8 py-10 md:py-14">
+            <div class="grid items-center gap-8 md:grid-cols-2">
+                <!-- Left: Heading & copy -->
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-semibold text-yellow-300">Schlüsseldienst Aarbergen –
+                        Notöffnungen</h1>
+                    <p class="mt-3 text-lg md:text-xl text-zinc-900/90"><strong>ab 99,90&nbsp;€ – wirklich!</strong>
+                        Inklusive MwSt. und PKW‑Kosten.</p>
+                    <p class="mt-2">Alles was zugeht, geht auch wieder auf – <strong>wir machen das.</strong></p>
+                    <div class="mt-3 flex flex-wrap gap-2 text-sm">
+                        <span class="inline-flex items-center gap-2 rounded-full border px-3 py-1.5"><i
+                                class="fa-solid fa-key"></i>Schlüssel‑Notdienst</span>
+                        <span class="inline-flex items-center gap-2 rounded-full border px-3 py-1.5"><i
+                                class="fa-solid fa-car"></i>PKW‑Öffnungen (alle Marken)</span>
+                    </div>
+                    <div class="mt-5 flex flex-wrap items-center gap-3">
+                        <a href="tel:01636513886"
+                            class="inline-flex items-center gap-2 rounded-xl bg-yellow-300 px-5 py-3 text-zinc-900 font-medium shadow hover:bg-yellow-400"><i
+                                class="fa-solid fa-phone"></i> 0163&nbsp;/&nbsp;65&nbsp;13&nbsp;886</a>
+                        <a href="/standorte"
+                            class="inline-flex items-center gap-2 rounded-xl border px-5 py-3 text-sm hover:bg-white"><i
+                                class="fa-solid fa-location-dot"></i> weitere Standorte</a>
+                    </div>
+                </div>
+                <!-- Right: Price card -->
+                <div class="rounded-2xl border border-zinc-200 bg-white p-5 md:p-6 shadow-sm">
+                    <div class="flex items-start justify-between gap-4">
+                        <div>
+                            <p class="text-sm text-zinc-500">Einfache Türöffnung (ortsnah)</p>
+                            <h2 class="text-3xl font-semibold text-zinc-900">ab 99,90&nbsp;€</h2>
+                            <p class="mt-1 text-xs text-zinc-500">inkl. MwSt. & PKW‑Kosten · verbindlicher Preis <em>vor
+                                    Einsatzbeginn</em></p>
+                        </div>
+                        <i class="fa-regular fa-face-smile text-3xl text-yellow-300"></i>
+                    </div>
+                    <div class="mt-4 grid grid-cols-2 gap-3">
+                        <div class="rounded-xl bg-zinc-50 border px-4 py-3 text-center">
+                            <p class="text-xs text-zinc-500 flex items-center justify-center gap-1"><i
+                                    class="fa-regular fa-sun"></i> Tageszeit</p>
+                            <p class="text-lg font-semibold">ab 99,90&nbsp;€</p>
+                        </div>
+                        <div class="rounded-xl bg-zinc-50 border px-4 py-3 text-center">
+                            <p class="text-xs text-zinc-500 flex items-center justify-center gap-1"><i
+                                    class="fa-regular fa-moon"></i> Notdienst</p>
+                            <p class="text-lg font-semibold">fair mit Zuschlag</p>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-xs text-zinc-500">Gilt für zugefallene Standard‑Wohnungs‑/Haustüren im ortsnahen
+                        Bereich. Für Sonderfälle (z. B. mehrfach verriegelt, Panzertür) informieren wir transparent
+                        vorab.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Cards -->
+    <div class="grid gap-6 sm:grid-cols-2 max-w-7xl mx-auto p-5 lg:grid-cols-4 md:my-16 my-10">
+        <!-- Reusable card pattern: base = light, hover = yellow/red -->
+        <!-- Card 1 -->
+        <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+                transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+                p-7 md:p-8 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                     group-hover:bg-white/70">
+                <i class="fa-solid fa-key text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+            </div>
+            <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                Schlüsseldienst<br>Standorte
+            </h3>
+            <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                Keine Panik, alles was zugeht, geht auch wieder auf …
+                <span class="lg:block hidden">&nbsp;</span>
+            </p>
+            <a href="#standorte" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+                   transition group-hover:bg-white group-hover:text-red-700">
+                Unsere Standorte
+            </a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+                transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+                p-7 md:p-8 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                     group-hover:bg-white/70">
+                <i class="fa-solid fa-house text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+            </div>
+            <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                Alarmanlagen<br>Sicherungstechnik
+            </h3>
+            <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                Der finanzielle Schaden und die damit verbundene Verletzung Ihrer …
+            </p>
+            <a href="#alarmanlagen" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+                   transition group-hover:bg-white group-hover:text-red-700">
+                Weiterlesen
+            </a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+                transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+                p-7 md:p-8 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                     group-hover:bg-white/70">
+                <i class="fa-solid fa-fire-flame-simple text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+            </div>
+            <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                Feuerschutz<br>Rauchmelder
+            </h3>
+            <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                Wie in Hessen ab Januar 2015 ist ein Rauchmelder mittlerweile in vielen …
+            </p>
+            <a href="#rauchmelder" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+                   transition group-hover:bg-white group-hover:text-red-700">
+                Weiterlesen
+            </a>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="group relative rounded-3xl bg-white/90 ring-1 ring-black/10 shadow-sm
+                transition hover:shadow-xl hover:ring-yellow-300 hover:bg-[#ffe44d]
+                p-7 md:p-8 flex flex-col items-center text-center">
+            <div class="w-14 h-14 rounded-full bg-zinc-100 grid place-items-center mb-4 transition
+                     group-hover:bg-white/70">
+                <i class="fa-solid fa-lock text-2xl text-zinc-600 transition group-hover:text-red-600"></i>
+            </div>
+            <h3 class="font-semibold text-xl transition group-hover:text-red-700">
+                Notöffnungen<br>aller Art
+            </h3>
+            <p class="mt-3 text-zinc-700 transition group-hover:text-red-700/90">
+                Tresor zu, Schlüssel weg oder Code vergessen? Wir helfen schnell.
+            </p>
+            <a href="#notoeffnungen" class="mt-6 inline-flex items-center px-4 py-2 bg-[#ffe44d] text-black font-semibold
+                   transition group-hover:bg-white group-hover:text-red-700">
+                weitere Details
+            </a>
+        </article>
+    </div>
+
+    <!-- Section 2: Details, Coverage Map & Contact -->
+    <section id="aarbergen-details" class="py-10 bg-white text-zinc-700">
+        <div class="max-w-6xl mx-auto px-5 md:px-8">
+            <div class="grid gap-8 md:grid-cols-3">
+                <!-- Main copy -->
+                <div class="md:col-span-2">
+                    <h2 class="text-2xl md:text-3xl font-semibold text-yellow-300">Schlüsseldienst Aarbergen – unser
+                        Preis. Ihre Sicherheit.</h2>
+                    <p class="mt-3 leading-7">Beim <strong>Schlüsseldienst Aarbergen</strong> ist <em>ab
+                            99,90&nbsp;€</em> der ortsübliche Preis für eine einfache, schonende Türöffnung
+                        <strong>inklusive Steuer und Anfahrt</strong>. Wir sind ortsansässig – deshalb sind wir
+                        <strong>schnell</strong> bei Ihnen.</p>
+
+                    <div class="mt-4 grid gap-4 md:grid-cols-2">
+                        <div class="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
+                            <p class="font-semibold">Kommt da noch was hinzu?</p>
+                            <ul class="mt-2 list-disc pl-5 text-sm space-y-1">
+                                <li><strong>Feiertage/Sonntage/Nacht</strong>: fairer Notdienst‑Zuschlag</li>
+                                <li><strong>Sondertüren</strong> (z. B. Panzertür/Mehrfachverriegelung): vorherige Info
+                                </li>
+                                <li><strong>Material</strong> (nur falls nötig): Zylinder/Beschlag transparent
+                                    ausgewiesen</li>
+                            </ul>
+                        </div>
+                        <div class="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
+                            <p class="font-semibold">Keine Lust auf Abzocker? Wir auch nicht!</p>
+                            <ul class="mt-2 list-disc pl-5 text-sm space-y-1">
+                                <li>Verbindlicher <strong>Telefonpreis</strong> vor Start</li>
+                                <li><strong>Ortsnahe Teams</strong>, keine Vermittlungszentrale</li>
+                                <li>Ordentliche <strong>Rechnung inkl. MwSt.</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm">
+                        <div class="flex items-center justify-between">
+                            <p class="font-semibold">Einsatzgebiet Schlüsseldienst Aarbergen</p>
+                            <a href="tel:01636513886"
+                                class="hidden md:inline-flex items-center gap-2 rounded-xl border px-4 py-2 text-sm hover:bg-zinc-50"><i
+                                    class="fa-solid fa-phone"></i> Jetzt anrufen</a>
+                        </div>
+                        <p class="mt-1 text-sm text-zinc-600">Für alle Orte im <span
+                                class="font-medium text-red-500">roten Umkreis</span> gilt der Preis für eine einfache
+                            Notöffnung – wir haben hier <strong>wirklich</strong> eine Niederlassung.</p>
+                        <div id="map-aarbergen" class="mt-3 h-[44vh] w-full rounded-xl overflow-hidden border"></div>
+                    </div>
+
+                    <div class="mt-4 text-sm text-zinc-600">
+                        <p>Sie sind nicht aus Aarbergen? Wir sind in vielen Regionen Deutschlands unterwegs. Den Preis
+                            für Ihr Gebiet nennen wir Ihnen gerne telefonisch.</p>
+                    </div>
+                </div>
+
+                <!-- Contact aside -->
+                <aside class="md:col-span-1">
+                    <div class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="h-12 w-12 rounded-full bg-yellow-300/40 border border-yellow-200 flex items-center justify-center">
+                                <i class="fa-solid fa-user"></i></div>
+                            <div>
+                                <p class="font-semibold">E. Richter</p>
+                                <p class="text-sm text-zinc-500">Schlüsseldienst Aarbergen</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 space-y-2 text-sm">
+                            <a href="tel:01636513886" class="flex items-center gap-2"><i class="fa-solid fa-phone"></i>
+                                0163&nbsp;/&nbsp;65&nbsp;13&nbsp;886</a>
+                            <a href="mailto:info@richter-sicherheitstechnik.de" class="flex items-center gap-2"><i
+                                    class="fa-regular fa-envelope"></i> info@richter-sicherheitstechnik.de</a>
+                        </div>
+                        <div class="mt-4">
+                            <a href="tel:01636513886"
+                                class="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-yellow-300 px-4 py-2 text-zinc-900 font-medium shadow hover:bg-yellow-400"><i
+                                    class="fa-solid fa-bolt"></i> Notdienst anrufen</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-xs">
+                        <p><strong>Hinweis:</strong> Preis gültig für zugefallene Standardtüren im Nahbereich. Endpreis
+                            hängt von Anfahrt, Uhrzeit und Aufwand ab. Wir nennen Ihnen den Betrag <em>vor</em>
+                            Einsatzbeginn verbindlich am Telefon.</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaflet (CDN) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script>
+        // Mini‑Karte für Aarbergen
+        const map = L.map('map-aarbergen', { zoomControl: true, scrollWheelZoom: true });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Approx. Koordinaten Aarbergen (bitte anpassen, falls gewünscht)
+        const AARB = { lat: 50.27, lng: 8.07 };
+        map.setView([AARB.lat, AARB.lng], 12);
+
+        // Roter Einsatzradius (z. B. 12 km)
+        const RADIUS_KM = 12; // bei Bedarf ändern
+        const circle = L.circle([AARB.lat, AARB.lng], {
+            radius: RADIUS_KM * 1000,
+            color: '#ef4444', // red-500
+            weight: 2,
+            fillColor: '#ef4444',
+            fillOpacity: 0.15
+        }).addTo(map);
+
+        // Standort‑Pin
+        const marker = L.circleMarker([AARB.lat, AARB.lng], {
+            radius: 7,
+            color: '#facc15', // yellow-400
+            weight: 2,
+            fillColor: '#fde047', // yellow-300
+            fillOpacity: 0.9
+        }).addTo(map);
+        marker.bindPopup('<strong>Schlüsseldienst Aarbergen</strong><br>Hauptstandort');
+    </script>
+
+
+
+    <div class="" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>

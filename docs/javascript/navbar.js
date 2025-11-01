@@ -59,23 +59,23 @@ navbar.innerHTML = `
           <li class="relative group z-40">
             <button class="px-6 h-full flex items-center hover:bg-[#ffea00] hover:text-black transition-colors">Standorte</button>
             <div class="absolute left-0 top-full hidden group-hover:flex flex-col min-w-[22rem] bg-black text-white">
-              <span class="p-4">Schlüsseldienst Suche auf unserer Seite</span>
+            <a href="/standorte.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Schlüsseldienst</a>
             </div>
           </li>
 
           <li class="relative group z-40">
             <button class="px-6 h-full flex items-center hover:bg-[#ffea00] hover:text-black transition-colors">Über uns</button>
             <div class="absolute left-0 top-full hidden group-hover:flex flex-col w-72 bg-black text-white">
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Team</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Galerie - Kurioses</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Stellenangebote</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Aktuelle News</a>
+              <a href="/team.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Team</a>
+              <a href="/galerie-kurioses.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Galerie - Kurioses</a>
+              <a href="/stellenangebote.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Stellenangebote</a>
+              <a href="/aktuelle-news.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Aktuelle News</a>
               <a href="/impressum.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Impressum</a>
-              <a href="#" class="p-4 hover:bg-[#ffea00] hover:text-black">Datenschutzerklärung</a>
+              <a href="/datenschutzerklaerung.html" class="p-4 hover:bg-[#ffea00] hover:text-black">Datenschutzerklärung</a>
             </div>
           </li>
 
-          <li class="relative"><a href="/contact.html" class="px-6 flex items-center hover:bg-[#ffea00] hover:text-black transition-colors">Kontakt</a></li>
+          <li class="relative"><a href="/kontakt.html" class="px-6 flex items-center hover:bg-[#ffea00] hover:text-black transition-colors">Kontakt</a></li>
         </ul>
 
         <!-- mobile menu button -->
@@ -124,8 +124,7 @@ navbar.innerHTML = `
           </button>
           <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="px-6 py-3 bg-[#2c2c2c] border-t border-black/30 flex items-center gap-3">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <span>Schlüsseldienst Suche auf unserer Seite</span>
+              <span><a href="/standorte.html" class="">Schlüsseldienst Suche auf unserer Seite</a></span>
             </div>
           </div>
         </li>
@@ -137,17 +136,17 @@ navbar.innerHTML = `
           </button>
           <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <ul class="bg-[#2c2c2c]">
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Team</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Galerie - Kurioses</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Stellenangebote</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Aktuelle News</a></li>
+              <li><a href="/team.html" class="block px-6 py-3 border-t border-black/30">Team</a></li>
+              <li><a href="/galerie-kurioses.html" class="block px-6 py-3 border-t border-black/30">Galerie - Kurioses</a></li>
+              <li><a href="/stellenangebote.html" class="block px-6 py-3 border-t border-black/30">Stellenangebote</a></li>
+              <li><a href="/aktuelle-news.html" class="block px-6 py-3 border-t border-black/30">Aktuelle News</a></li>
               <li><a href="/impressum.html" class="block px-6 py-3 border-t border-black/30">Impressum</a></li>
-              <li><a href="#" class="block px-6 py-3 border-t border-black/30">Datenschutzerklärung</a></li>
+              <li><a href="/datenschutzerklaerung.html" class="block px-6 py-3 border-t border-black/30">Datenschutzerklärung</a></li>
             </ul>
           </div>
         </li>
 
-        <li><a href="/contact.html" class="block px-4 py-3 bg-[#494949] border-t border-black/30">Kontakt</a></li>
+        <li><a href="/kontakt.html" class="block px-4 py-3 bg-[#494949] border-t border-black/30">Kontakt</a></li>
       </ul>
     </nav>
   </aside>

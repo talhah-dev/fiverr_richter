@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core pages -->
+  <url><loc>https://YOUR-DOMAIN.tld/index.html</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/kontakt.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/impressum.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/datenschutzerklaerung.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/standorte.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/sub-standorte.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/suche.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/team.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/stellenangebote.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Services / Products -->
+  <url><loc>https://YOUR-DOMAIN.tld/notoefnungen.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/sicherungstechnik.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/alarmanlagen-einfamilienhaus.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/videoeberwachung.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/einbruchschaden-beseitigung.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/galerie-kurioses.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+
+  <!-- News hub -->
+  <url><loc>https://YOUR-DOMAIN.tld/aktuelle-news.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- News/detail articles -->
+  <url><loc>https://YOUR-DOMAIN.tld/in-deutschland-wird-alle-2-minuten-eingebrochen.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/millionen-zuschuesse-fuer-einbruchssicherung.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/odenwaelder-lokalblick-berichtet-ueber-richter-sicherheitstechnik.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/radiospot-auf-ffh-veroeffentlicht.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/rauchmelder-seit-januar-in-hessen-2015-pflicht.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/verbraucher-beschweren-sich-ueber-preise.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://YOUR-DOMAIN.tld/jetzt-oeffnungstest-anfordern.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+  <!-- Advice / Awareness -->
+  <url><loc>https://YOUR-DOMAIN.tld/achtung-abzocker.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+</urlset>
