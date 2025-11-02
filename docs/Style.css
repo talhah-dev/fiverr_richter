@@ -37,19 +37,19 @@ input:user-invalid {
 }
 
 .homeBanner1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider1.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1199) center/cover no-repeat;
 }
 
 .homeBanner2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider2.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(https://images.unsplash.com/photo-1737442886747-9fb768b96ed2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170) center/cover no-repeat;
 }
 
 .homeBanner3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider3.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(https://images.unsplash.com/photo-1653668983636-a65b1b3e2ad0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687) center/cover no-repeat;
 }
 
 .homeBanner4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/docs/assets/images/slider4.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170) center/cover no-repeat;
 }
 
 .swiper {

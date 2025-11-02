@@ -14,10 +14,10 @@ navbar.innerHTML = `
         </div>
 
         <!-- Notdienst (center) -->
-        <a href="tel:+491636513886" class="justify-self-start flex items-center gap-2 text-black font-extrabold tracking-tight">
+        <a href="tel:+015122137840" class="justify-self-start flex items-center gap-2 text-black font-extrabold tracking-tight">
           <i class="fa-solid fa-phone text-red-600 text-lg"></i>
           <span class="text-red-600">Notdienst</span>
-          <span>0163 - 65 13 886</span>
+          <span>0151&nbsp;22137840</span>
         </a>
 
         <!-- Search (right) -->
@@ -36,7 +36,7 @@ navbar.innerHTML = `
         <!-- Logo/Title -->
         <a href="/index.html" class="py-5">
           <div class="leading-tight">
-            <div class="text-2xl font-extrabold text-black">E. Richter</div>
+            <div class="text-2xl font-extrabold text-black">Remus Locksmith</div>
             <div class="text-2xl font-extrabold text-[#ffe44d] drop-shadow">Sicherheitstechnik</div>
           </div>
         </a>

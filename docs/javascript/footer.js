@@ -9,7 +9,7 @@ footer.innerHTML = `
           <h2 class="text-2xl font-semibold text-yellow-300">Kontaktdaten</h2>
 
           <div class="mt-4 space-y-1">
-            <p class="font-semibold">E. Richter</p>
+            <p class="font-semibold">Remus Locksmith</p>
             <p>Sicherheitstechnik</p>
             <p>Hauptsitz</p>
             <p>Weilertsweg 8</p>
@@ -180,7 +180,7 @@ footer.innerHTML = `
   <div class="bg-[#a0a0a0]">
     <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-3 md:flex-row md:items-center items-center justify-center md:justify-between">
       <p class="text-sm md:text-base">
-        © 2013 - <span id="year"></span> - E. Richter Sicherheitstechnik
+        © 2013 - <span id="year"></span> - Remus Locksmith Sicherheitstechnik
       </p>
 
       <nav class="text-sm md:text-base flex items-center flex-wrap">
