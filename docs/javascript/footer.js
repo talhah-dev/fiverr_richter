@@ -22,22 +22,7 @@ footer.innerHTML = `
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mt-0.5 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 6.75c0 8.284 6.716 15 15 15a1.5 1.5 0 001.5-1.5v-2.693a1.5 1.5 0 00-1.094-1.447l-3.13-.9a1.5 1.5 0 00-1.79.79l-.57 1.26a11.25 11.25 0 01-5.776-5.776l1.26-.57a1.5 1.5 0 00.79-1.79l-.9-3.13A1.5 1.5 0 006.943 3.75H4.25A1.5 1.5 0 002.75 5.25v1.5z"/>
               </svg>
-              <span>Tel:&nbsp;<a href="tel:+496163937863" class="hover:text-yellow-300">06163 - 93 78 63</a></span>
-            </li>
-            <li class="flex items-start gap-3">
-              <!-- mobile -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mt-0.5 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <rect x="7.5" y="2.25" width="9" height="19.5" rx="2" />
-                <circle cx="12" cy="18" r="0.9" fill="currentColor"/>
-              </svg>
-              <span>Mobil:&nbsp;<a href="tel:+4901636513886" class="hover:text-yellow-300">0163 - 65 13 886</a></span>
-            </li>
-            <li class="flex items-start gap-3">
-              <!-- fax -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mt-0.5 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M6 2h12v6H6z"/><path d="M4 8h16a2 2 0 012 2v8H2v-8a2 2 0 012-2z"/><path class="fill-neutral-600" d="M8 4h8v2H8z"/>
-              </svg>
-              <span>Fax:&nbsp;06163 - 93 78 64</span>
+              <span><a href="tel:+015122137840" class="hover:text-yellow-300">015122137840</a></span>
             </li>
             <li class="flex items-start gap-3">
               <!-- mail -->
@@ -45,7 +30,14 @@ footer.innerHTML = `
                 <path d="M2 5a2 2 0 012-2h16a2 2 0 012 2v.15l-10 6.25L2 5.15V5z"/><path d="M22 7.35l-10 6.25L2 7.35V19a2 2 0 002 2h16a2 2 0 002-2V7.35z"/>
               </svg>
               <span>
-                E-Mail:&nbsp;<a href="mailto:website@richter-sicherheitstechnik.de" class="hover:text-yellow-300">website@richter-sicherheitstechnik.de</a>
+                <a href="mailto:info@schluesselnotdienst.de" class="hover:text-yellow-300">info@schluesselnotdienst.de</a>
+              </span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-location-dot text-yellow-300 w-5 h-5 mt-0.5"></i>
+
+              <span>
+                <a href="#" class="hover:text-yellow-300">Erbacher Straße 5 64720 Michelstadt Deutschland</a>
               </span>
             </li>
           </ul>

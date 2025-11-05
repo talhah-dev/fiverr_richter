@@ -17,7 +17,7 @@ navbar.innerHTML = `
         <a href="tel:+015122137840" class="justify-self-start flex items-center gap-2 text-black font-extrabold tracking-tight">
           <i class="fa-solid fa-phone text-red-600 text-lg"></i>
           <span class="text-red-600">Notdienst</span>
-          <span>0151&nbsp;22137840</span>
+          <span>015122137840</span>
         </a>
 
         <!-- Search (right) -->
